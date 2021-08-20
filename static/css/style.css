@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: rgb(216, 210, 210);
+    text-align: center;
+}
+/* start of Login page formatting */
+.loginForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 0;
+    border: 1px solid rgb(239, 239, 245);
+    color: #111;
+    max-width: 100%;
+    min-width: 500px;
+    width: 30%;
+    background: #fff;
+}
+.formHeading{
+    padding-top: 3%;
+    color: #fff;
+    font-weight: normal;
+}
+/* format maseno logo */
+.masenoLogoImage{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 2%;
+}
+.formTop{
+    background-color:#00a7d0;
+    width: 100%;
+}
+
+.formContent{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: left;
+    width: 100%;
+}
+.usernameLabel{
+    font-weight: bold;
+    text-align: left;
+    padding-right: 1%;
+    width: 100px;
+}
+.passwordLabel{
+    font-weight: bold;
+    padding-right: 1%;
+    width: 100px;
+}
+/* put spacing between input fields */
+label{
+    padding: 1%;
+}
+.loginUsername{
+    width: 70%;
+    padding: 0.5%;
+}
+.loginPassword{
+    width: 70%;
+    padding: 0.5%;
+    margin-top: 2%;
+}
+
+.loginButton{
+    width: 100%;
+    background-color: #3c8dbc;
+    border-color: #3f85ad;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8%;
+}
+/* end of login page formatting */
