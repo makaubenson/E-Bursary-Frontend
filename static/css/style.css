@@ -133,3 +133,8 @@ label{
 }
 
 /* end of register form formatting styles */
+
+/* student dashboard */
+.navTitle{
+    color: red;
+}
