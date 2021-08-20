@@ -80,3 +80,56 @@ label{
     margin-top: 8%;
 }
 /* end of login page formatting */
+
+/* register form formatting */
+.registerForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 0;
+    border: 1px solid rgb(239, 239, 245);
+    color: #111;
+    max-width: 100%;
+    min-width: 500px;
+    width: 60%;
+    background: #fff;
+}
+
+.registerFormContent{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-top: 4%;
+}
+.registerFormContent label{
+    width: 200px;
+}
+.registerFormContent input{
+    width:50%;
+}
+.FirstName,
+.MiddleName,
+.LastName,
+.regNumber,
+.email,
+.phoneNumber,
+.password1,
+.confirmPassword{
+    padding: 0.5%;
+}
+
+.registerButton{
+    background-color: #00a7d0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0.5%;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* end of register form formatting styles */
