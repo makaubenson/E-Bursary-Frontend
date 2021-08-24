@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SOMU | APPLICATION</title>
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/bootstrap4/css/bootstrap.min.css">
+        <!-- <script defer src="static/js/index.js"></script> -->
+    </head>
+    <body class="body">
+        <div class="SOMU-Form">
+
+            <div class="SOMUForm-Top">
+                <img src="static/images/somuLogo.png" class="somuLogo">
+                <h2>MASENO UNIVERSITY</h2>
+            <h2>OFFICE OF THE SOMU VICE-CHAIR</h2>
+            <h4 class="SOMU-Title">SOMU BURSARY APPLICATION FORM</h4>
+            </div>
+
+            
+            <div class="formContents">
+                <form class="personalInformationForm" id="SOMUForm">
+                    <h5 class="SOMU-Subtitle">PERSONAL INFORMATION</h5>
+                    <label for="FirstName">First Name</label>
+                    <input type="text" placeholder="First Name" class="SOMU-FirstName" required><br>
+
+                    <label for="FirstName">Last Name</label>
+                    <input type="text" placeholder="Last Name" class="SOMU-LastName" required><br>
+
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" placeholder="Phone Number" class="SOMU-phonenumber" required><br>
+
+                    <label for="emailaddress">Email Address</label>
+                    <input type="email" placeholder="Email Address" class="SOMU-email" required><br>
+
+                    <label for="YearOfStudy">Year of Study</label>
+                    <input type="text" placeholder="Year of Study" class="SOMU-yearofstudy" required><br>
+
+                    <label for="degree-programme">Degree Programme</label>
+                    <input type="text" placeholder="Degree Programme" class="SOMU-Degree-Programme" required><br>
+
+                    <label for="department">Department</label>
+                    <input type="text" placeholder="Department" class="SOMU-Department" required><br>
+
+                    <label for="county">County</label>
+                    <input type="text" placeholder="County" class="SOMU-county" required><br>
+
+                    <label for="constituency">Constituency</label>
+                    <input type="text" placeholder="Constituency" class="SOMU-constituency" required><br>
+
+                    <label for="constituency">Who is your sponsor?</label>
+                    <input type="text" placeholder="Government or self sponsored" class="SOMU-sponsor" required><br>
+
+
+                    <button type="submit" class="save-Button">Save Personal Information</button>
+                </form>
+            </div>
+        </div>
+        <!--second form-->
+        <div class="family-status-content" id="familyStatus-form">
+            <form  class="family-status-form" id="status-family">
+                <h5 class="SOMU-Subtitle">FAMILY STATUS</h5>
+
+                <label for="orphan">Orphan</label>
+                <input type="checkbox" class="orphan"><br>
+
+                <label for="disabled">Disabled</label>
+                <input type="checkbox" class="disabled"><br>
+
+                <label for="single_parent">Single Parent</label>
+                <input type="checkbox" class="single-parent"><br>
+
+                <label for="unemployed_parents">Unemployed Parents</label>
+                <input type="checkbox" class="unemployed-parents"><br>
+
+                <label for="others">Others(specify)</label>
+                <textarea type="text" class="others"  rows="4" cols="40" style="margin-left: 6%;"></textarea><br>
+
+                <button type="submit" class="save-Button-family">Save Family Status</button>
+            </form>
+        </div><!--end of family form contents-->
+
+
+        <!--Loan details-->
+        <div class="loan-details-form">
+            <div class="loan-contents">
+                <h5 class="SOMU-Subtitle">DETAILS OF LOANS AND BUSARIES</h5>
+                <p class="loan-disclaimer">Indicate clearly, organization and amount (e.g. HELB, 25000)</p>
+                <form>
+                    <hr>
+                    <h5 class="loan-details-heading">LOAN</h5>
+                    <label for="loan_amount">Loan Amount</label>
+                    <input type="number" class="loan-amount" placeholder="Loan Amount in Ksh: 10,000" value="0" required><br>
+                    <label for="awarding_organization">Awarding Organization</label>
+                    <input type="text" class="awarding-organization" placeholder=" e.g HELB or if no organization then type none" required><br>
+                    <label for="attach-evidence">Attach Documents (pdf,jpg,jpeg or png files only)</label>
+                    <input type="file" accept="application/pdf,image/jpeg,image/jpg,image/png" placeholder="Attach Document"><br>
+
+                    <hr>
+
+                    <h5 class="loan-details-heading">BURSARY</h5>
+                    <label for="bursary_amount">Bursary Amount</label>
+                    <input type="number" class="bursary-amount" value="0" placeholder="Amount in Ksh:1000" required><br>
+                    <label for="bursary_awarding_organization">Awarding Organization</label>
+                    <input type="text" class="bursary-awarding-organization"  placeholder="e.g Mwala Constituency if no organization then type none" required><br>
+                    <label for="attach-evidence">Attach Documents (pdf,jpg,jpeg or png files only)</label>
+                    <input type="file" accept="application/pdf,image/jpeg,image/jpg,image/png" placeholder="Attach Document"><br><br>
+
+                    <label for="other">Others (Specify)</label>
+                    <textarea class="other-loan-awards" rows="4" cols="40"></textarea><br><br>
+
+                    <h5 class="loan-details-heading">ACADEMIC PROGRESS</h5>
+
+                    <label for="academic-grade">Previous Year academic grade</label>
+                    <input type="text" class="academic-grade" placeholder="e.g B">
+                    <label for="attach-evidence">Attach certified result slip by Dean of school(pdf only)</label>
+                    <input type="file" accept="application/pdf" placeholder="Attach Document"><br>
+
+                    <button class="loan-details-btn-save" type="submit">Save Loan Details</button>
+                       </form>
+            </div>
+        </div>
+        <!--end of loan details-->
+    </body>
+    </html>

@@ -5,6 +5,10 @@
 .body{
     background: rgb(216, 210, 210);
     text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 /* start of Login page formatting */
 .loginForm{
@@ -141,4 +145,151 @@ label{
 .jumbotron{
     background-color: #494343!important ;
     color: #ffff;
+}
+
+
+/* SOMU BURSARY SECTION */
+.somuLogo{
+    padding: 2%;
+}
+
+.SOMUForm-Top{
+    background-color: #00a7d0;
+    color: white;
+    min-width: 70%;
+    margin: 0% !important;
+}
+.SOMU-Title{
+    background-color: #00a7d0;
+    color: white;
+    padding-bottom: 2%;
+}
+.SOMU-Subtitle{
+    text-align: center;
+}
+.SOMU-Form{
+    background: rgb(216, 210, 210);
+}
+.personalInformationForm{
+    position: relative;
+   background: white;
+    color: black;
+    border: 8px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    max-width: 100%;
+    min-width: 80%;
+    width: 60%;
+}
+
+.personalInformationForm label{
+    width: 150px;
+    text-align: left;
+    padding-left: 0;
+    margin: 0;
+}
+.personalInformationForm  input{
+    width: 50%;
+}
+button.save-Button{
+    color: white;
+    background: #00a7d0;
+    padding: 1%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Family status form*/
+
+.family-status-form{
+    background: white;
+    color: black;
+    border: 8px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    /* padding-right: 2%; */
+    max-width: 100%;
+    min-width: 80%;
+    width: 60%;
+    text-align: left;
+}
+.family-status-form label{
+    width: 250px;
+    margin: 0;
+    padding-left:10%; 
+    padding-right: 0;
+}
+.family-status-form input{
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 6%;
+    padding-left: 0;
+
+}
+.save-Button-family{
+    color: white;
+    background: #00a7d0;
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: auto;
+    position: relative;
+}
+/* end of family status form formatting */
+
+/* loan details formatting */
+.loan-disclaimer{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+.loan-contents{
+    border: 8px yellow solid;
+    background: white;
+    color: black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    text-align: left;
+    min-width: 80%;
+    max-width: 100%;
+}
+.loan-contents label{
+    width:300px ;
+    padding-left: 15%;
+    padding-right: 0;
+    margin-right: 0%;
+}
+.loan-contents input{
+    width: 45%;
+    margin-left: 2%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.loan-details-heading{
+    text-align: left;
+}
+.loan-details-heading{
+    padding-top:2%;
+    padding-left: 15%;
+}
+.loan-details-btn-save{
+    color: white;
+    background: #00a7d0;
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: auto;
+    position: relative;
 }
