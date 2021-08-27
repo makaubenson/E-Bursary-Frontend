@@ -4,17 +4,28 @@
         <title>SOMU | APPLICATION</title>
         <link rel="stylesheet" href="static/css/style.css">
         <link rel="stylesheet" href="static/bootstrap4/css/bootstrap.min.css">
+        <!--font awesome icons cdn-->
+<script defer src="https://kit.fontawesome.com/885a196d5c.js" crossorigin="anonymous"></script>
         <!-- <script defer src="static/js/index.js"></script> -->
     </head>
     <body class="body">
         <div class="SOMU-Form">
 
-            <div class="SOMUForm-Top">
-                <img src="static/images/somuLogo.png" class="somuLogo">
-                <h2>MASENO UNIVERSITY</h2>
-            <h2>OFFICE OF THE SOMU VICE-CHAIR</h2>
-            <h4 class="SOMU-Title">SOMU BURSARY APPLICATION FORM</h4>
+          <!--Navigation Bar section-->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#top">Maseno University <span class="navTitle">E</span>-Bursary System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="studentDashboard.html" >Home</a>
+                <a class="nav-item nav-link active" href="somubursary.html">Application</a>
+                <a class="nav-item nav-link active" href="loanStatus.html">Loan Status</a>
+                <a class="nav-item nav-link active" href="#">Downloads</a>
+              </div>
             </div>
+          </nav><!--end of Navigation Bar section-->
 
             
             <div class="formContents">
@@ -47,10 +58,9 @@
                     <label for="constituency">Constituency</label>
                     <input type="text" placeholder="Constituency" class="SOMU-constituency" required><br>
 
-                    <label for="constituency">Who is your sponsor?</label>
-                    <input type="text" placeholder="Government or self sponsored" class="SOMU-sponsor" required><br>
-
-
+                    <label for="sponsor">Government sponsored?</label>
+                    <input type="text" placeholder="yes or no" class="SOMU-sponsor" required><br>
+                  
                     <button type="submit" class="save-Button">Save Personal Information</button>
                 </form>
             </div>
@@ -105,9 +115,6 @@
                     <label for="attach-evidence">Attach Documents (pdf,jpg,jpeg or png files only)</label>
                     <input type="file" accept="application/pdf,image/jpeg,image/jpg,image/png" placeholder="Attach Document"><br><br>
 
-                    <label for="other">Others (Specify)</label>
-                    <textarea class="other-loan-awards" rows="4" cols="40"></textarea><br><br>
-
                     <h5 class="loan-details-heading">ACADEMIC PROGRESS</h5>
 
                     <label for="academic-grade">Previous Year academic grade</label>
@@ -120,5 +127,36 @@
             </div>
         </div>
         <!--end of loan details-->
+<!--Footer section-->
+<footer translate="no" class="footer-section">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        
+          <h4 class="footer-menu">MENU</h4>
+          <a href="#top" class="footer-menu">Home</a><br>
+          <a href="somubursary.html" class="footer-menu">Application</a><br>
+          <a href="#loanStatus.html" class="footer-menu">Loan Status</a><br>
+          <a href="#" class="footer-menu">Downloads</a><br>
+      </div>
+      <div class="col-6">
+        <h4 class="footer-heading">MASENO UNIVERSITY</h4>
+        <p>Maseno University is a public university based in the Maseno district of the city of Kisumu, Kenya, 
+          situated along the Equator. It was fully fledged as a university in 2001, after being a constituent 
+          college of Moi University for a decade. It is one of public universities in Kenya.</p>
+      </div>
+      <div class="col">
+       <h3>Social Media</h3>
+       <p>Maseno University social media handles include:</p>
+       <a class="fa fa-twitter fa-2x" href="https://twitter.com/Maseno_Uni"></a>
+       <a class="fa fa-facebook fa-2x" href="https://facebook.com/MasenoUniversity"></a>
+       <a class="fa fa-instagram fa-2x" href="https://instagram.com/maseno_university_"></a>
+      </div>
+    </div>
+    
+  </div>
+  <p class="copyright" style="text-align: center;padding-top:5%;">Maseno University &copy;<span id="currentYear">2021</span></p>
+</footer>
+<!--end footer-->
     </body>
     </html>

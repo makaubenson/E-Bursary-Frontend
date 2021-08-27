@@ -81,7 +81,39 @@ label{
     color: #fff;
     font-size: 16px;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+.loginButton a{
+    color: white;
+}
+
+.regButton{
+    width: 30%;
+    background-color: green;
+    border-color: #3f85ad;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 5px;
+} 
+.regButton a{
+        text-decoration:none;
+        font-family:Arial;
+        display: inline-block;
+}
+
+.regLabel{
+    padding:0;
+    margin-bottom: 1%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
 }
 /* end of login page formatting */
 
@@ -125,26 +157,45 @@ label{
 }
 
 .registerButton{
-    background-color: #00a7d0;
+    background-color: green;
     color: #fff;
     font-size: 20px;
     border-radius: 10px;
     padding: 0.5%;
-    width: 40%;
+    width: 30%;
     margin: auto;
     display: flex;
     justify-content: center;
+}
+.registerButton:hover{
+background-color: #00a7d0;
 }
 
 /* end of register form formatting styles */
 
 /* student dashboard */
+.navbar{
+    background-color: #1f2021;
+}
+/* <a class="nav-item nav-link active" href="studentDashboard.html" style="color: white;">Home</a> */
+.nav-item,.nav-link{
+    color: white;
+}
 .navTitle{
     color: red;
 }
+.navbar-brand{
+    color: #fff;
+}
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: white;
+}
+
+
 .jumbotron{
-    background-color: #494343!important ;
-    color: #ffff;
+    background-color: #fff!important ;
+    color: black;
 }
 
 
@@ -153,28 +204,22 @@ label{
     padding: 2%;
 }
 
-.SOMUForm-Top{
-    background-color: #00a7d0;
-    color: white;
-    min-width: 70%;
-    margin: 0% !important;
-}
-.SOMU-Title{
-    background-color: #00a7d0;
-    color: white;
-    padding-bottom: 2%;
-}
+
 .SOMU-Subtitle{
     text-align: center;
 }
 .SOMU-Form{
     background: rgb(216, 210, 210);
 }
+.formContents{
+    margin-top: 5%;
+}
+
 .personalInformationForm{
     position: relative;
    background: white;
     color: black;
-    border: 8px solid yellow;
+    border: 1px solid #fff;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1%;
@@ -186,6 +231,7 @@ label{
     width: 60%;
 }
 
+
 .personalInformationForm label{
     width: 150px;
     text-align: left;
@@ -194,6 +240,9 @@ label{
 }
 .personalInformationForm  input{
     width: 50%;
+}
+.center{
+    text-align: end;
 }
 button.save-Button{
     color: white;
@@ -209,7 +258,7 @@ button.save-Button{
 .family-status-form{
     background: white;
     color: black;
-    border: 8px solid yellow;
+    border: 1px solid #fff;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1%;
@@ -229,6 +278,7 @@ button.save-Button{
     padding-left:10%; 
     padding-right: 0;
 }
+
 .family-status-form input{
     padding-right: 0;
     margin-right: 0;
@@ -236,6 +286,7 @@ button.save-Button{
     padding-left: 0;
 
 }
+
 .save-Button-family{
     color: white;
     background: #00a7d0;
@@ -254,7 +305,7 @@ button.save-Button{
     color: red;
 }
 .loan-contents{
-    border: 8px yellow solid;
+    border: 1px solid #fff;
     background: white;
     color: black;
     width: 60%;
@@ -292,4 +343,139 @@ button.save-Button{
     margin-left: 40%;
     margin-right: auto;
     position: relative;
+}
+
+.footer-section{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: #fff;
+    margin-top: 2%;
+}
+.footer-menu{
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+}
+.heading-footer{
+    text-align: center;
+}
+.footer-heading{
+    text-align: center;
+}
+
+/* Loan Status Formats */
+.loanStatus-table{
+    margin-top: 6%;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 1%;
+}
+th{
+    background-color: #353232;
+    color:white;
+    font-weight: bold;
+    padding: .5%;
+}
+td{
+    padding: 1%;
+    background-color: white;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+.view-details-btn{
+background-color: #00a7d0;
+border-radius: 10px;
+color: white;
+padding: 2%;
+}
+
+.print-btn{
+    margin-bottom: 5%;
+}
+.applicants{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.move-btn{
+    text-align: center;
+}
+.previous-btn{
+    color: white;
+    background-color: #00a7d0;
+    padding: 0.5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.next-btn{
+    color: white;
+    background-color: #00a7d0;
+    padding: 0.5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* apllicants details formarts */
+.main-view{
+    margin-top: 5%;
+}
+
+.applicants-details-heading{
+    color: black;
+    text-decoration: underline;
+}
+.personal-details{
+    margin-bottom: 2%;
+}
+.family-status{
+    margin-bottom: 2%;
+}
+.loan-details{
+    margin-bottom: 2%;
+}
+.bursary-details{
+    margin-bottom: 2%;
+}
+.academic-details{
+    margin-bottom: 2%;
+}
+.verify-section{
+    margin-bottom: 2%;
+}
+.approval-section{
+    margin-bottom: 2%;
+}
+.approve-btn{
+    padding: 0.5%;
+    background-color: #00a7d0;
+    color: white;
+    border-radius: 10px;
+    width: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.disapprove-btn{
+    padding: 0.5%;
+    background-color: #00a7d0;
+    color: white;
+    border-radius: 10px;
+    width: 5%;
+}
+.approve-dissaprove-p{
+    color: black;
+}
+.allocate-amount{
+    border-radius: 10px;
+    margin-right: 2%;
+}
+.allocate-btn{
+    background-color: #00a7d0;
+    color: white;
+    width: 5%;
+    border-radius: 10px;
+    padding: 0.5%;
 }
