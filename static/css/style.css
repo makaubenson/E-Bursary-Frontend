@@ -396,6 +396,7 @@ padding: 2%;
 
 .print-btn{
     margin-bottom: 5%;
+    display: inline-block;
 }
 .applicants{
     margin-top: 5%;
@@ -404,20 +405,9 @@ padding: 2%;
 .move-btn{
     text-align: center;
 }
-.previous-btn{
-    color: white;
-    background-color: #00a7d0;
-    padding: 0.5%;
-    border-radius: 10px;
-    text-align: center;
-}
-.next-btn{
-    color: white;
-    background-color: #00a7d0;
-    padding: 0.5%;
-    border-radius: 10px;
-    text-align: center;
-}
+
+
+
 
 /* apllicants details formarts */
 .main-view{
@@ -445,25 +435,35 @@ padding: 2%;
 }
 .verify-section{
     margin-bottom: 2%;
+    border: 1px solid red;
+    padding: 2%;
 }
 .approval-section{
     margin-bottom: 2%;
+    border: 1px solid red;
+    padding: 2%;
+}
+.allocation-section{
+    border:1px solid blue;
+    padding: 2%;
+    margin-bottom: 2%;
 }
 .approve-btn{
-    padding: 0.5%;
+    /* padding: 0.5%; */
     background-color: #00a7d0;
     color: white;
     border-radius: 10px;
-    width: 5%;
     margin-right: 2%;
     margin-left: 2%;
+    display: inline-block;
 }
 .disapprove-btn{
-    padding: 0.5%;
+    /* padding: 0.5%; */
     background-color: #00a7d0;
     color: white;
     border-radius: 10px;
-    width: 5%;
+    /* width: 5%; */
+    display: inline-block;
 }
 .approve-dissaprove-p{
     color: black;
@@ -471,11 +471,37 @@ padding: 2%;
 .allocate-amount{
     border-radius: 10px;
     margin-right: 2%;
+    padding: 0.5%;
 }
 .allocate-btn{
     background-color: #00a7d0;
     color: white;
-    width: 5%;
+    display: inline-block;
     border-radius: 10px;
     padding: 0.5%;
+    margin-top: 1%;
+}
+
+.previous-btn{
+    color: white;
+    background-color: #00a7d0;
+    padding: 0.5%;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.previous-btn:hover{
+    background-color: green;
+}
+
+.next-btn{
+    color: white;
+    background-color: #00a7d0;
+    padding: 0.5%;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.next-btn:hover{
+    background-color: green;
 }
