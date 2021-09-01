@@ -365,12 +365,11 @@ box-shadow: 10px 10px 10px rgb(167, 159, 159);
 .footer-heading{
     text-align: center;
 }
-
 /* Loan Status Formats */
 .loanStatus-table{
-    margin-top: 6%;
+    margin-top: 8%;
+    margin-bottom: 10%!important;
 }
-
 table{
     width: 100%;
     margin-bottom: 1%;
@@ -385,8 +384,16 @@ td{
     padding: 1%;
     background-color: white;
 }
-table, th, td {
-    border: 1px solid black;
+  table,td{
+    border: 1px solid skyblue;  
+  }
+  th{
+    border: 1px solid white;  
+  }
+
+
+  .loanDetails-table{
+      margin-top: 8%;
   }
 .view-details-btn{
 background-color: #00a7d0;
