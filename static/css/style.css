@@ -39,30 +39,21 @@
     background-color:#00a7d0;
     width: 100%;
 }
-
 .formContent{
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 3%;
     padding-right: 3%;
-    text-align: left;
     width: 100%;
 }
-.usernameLabel{
-    font-weight: bold;
-    text-align: left;
-    padding-right: 1%;
-    width: 100px;
-}
+.usernameLabel,
 .passwordLabel{
     font-weight: bold;
+    text-align: left;
     padding-right: 1%;
     width: 100px;
 }
 /* put spacing between input fields */
-label{
-    padding: 1%;
-}
 .loginUsername{
     width: 70%;
     padding: 0.5%;
@@ -71,23 +62,13 @@ label{
     width: 70%;
     padding: 0.5%;
     margin-top: 2%;
+    margin-bottom:2%;
 }
-
 .loginButton{
+    padding: 2%;
     width: 100%;
-    background-color: #3c8dbc;
-    border-color: #3f85ad;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 4%;
-    border-radius: 5px;
+    border-radius: 15%;
 }
-.loginButton a{
-    color: white;
-}
-
 .regButton{
     width: 30%;
     background-color: green;
@@ -95,25 +76,26 @@ label{
     height: 40px;
     color: #fff;
     font-size: 16px;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding: 2%;
     border-radius: 5px;
-} 
-.regButton a{
-        text-decoration:none;
-        font-family:Arial;
-        display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
 }
-
+.regButton:hover{
+    color: white;
+    background-color: #00a7d0;
+}
 .regLabel{
     padding:0;
+    margin-top: 0;
     margin-bottom: 1%;
     padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 2%;
     text-align: center;
+}
+.hr-class{
+    margin-top: 2%;
+    margin-bottom: 0.5%;
 }
 /* end of login page formatting */
 
@@ -137,13 +119,15 @@ label{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-    margin-top: 4%;
+    padding-top: 1%;
+    margin-top: 2%;
 }
 .registerFormContent label{
     width: 200px;
 }
 .registerFormContent input{
     width:50%;
+   margin: 1%;
 }
 .FirstName,
 .MiddleName,
@@ -157,10 +141,10 @@ label{
 }
 
 .registerButton{
-    background-color: green;
+    background-color: rgb(2, 105, 2);
     color: #fff;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 5%;
     padding: 0.5%;
     width: 30%;
     margin: auto;
@@ -168,9 +152,17 @@ label{
     justify-content: center;
 }
 .registerButton:hover{
-background-color: #00a7d0;
+background-color: rgb(13, 112, 13);
+box-shadow: 10px 10px 10px rgb(85, 81, 81);
 }
-
+.registerForm-footer{
+    background-color: #00a7d0;
+    color: white;
+    padding: 0.5%;
+}
+.register-footer-p{
+    padding-top: 1%;
+}
 /* end of register form formatting styles */
 
 /* student dashboard */
