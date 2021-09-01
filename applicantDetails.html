@@ -2,6 +2,10 @@
 <html lang="en">
     <head>
         <title>APPLICANTS</title>
+        <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" href="static/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="static/bootstrap4/css/bootstrap.min.css">
@@ -10,15 +14,15 @@
         <header>
             <div class="header-Section">
 <!--Navigation Bar section-->
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <a class="navbar-brand" href="#top">Maseno University <span class="navTitle">E</span>-Bursary System</a>
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#top"><span class="navTitle">E</span>-Bursary System</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="#">Home</a>
-                <a class="nav-item nav-link active" href="#">Downloads</a>
+                <a class="nav-item nav-link active" href="adminDashboard.html">Home</a>
+                <a class="nav-item nav-link active" href="">Downloads</a>
               </div>
             </div>
           </nav><!--end of Navigation Bar section-->
@@ -26,8 +30,9 @@
           </header>
 
           <div class="main-view">
+
             <div class="personal-details">
-              <table class="personal-info-table">
+              <table class="table personal-info-table">
                 <h5 class="applicants-details-heading">Personal Information</h5>
 
                 <tr>
@@ -126,33 +131,27 @@
             <div class="verify-section">
                 <h5 class="applicants-details-heading">Verification Status</h5>
                 <p class="approve-dissaprove-p">Do you verify this application?</p>
-                <a href="" ><button class="btn approve-btn">Verify</button></a>
-                <a href="" ><button class="btn disapprove-btn">Unverify</button></a>
+                <a href="" ><button class="btn btn-primary verify-btn">Verify</button></a>
+                <a href="" ><button class="btn btn-primary unverify-btn">Unverify</button></a>
             </div>
 
-            <div class="approval-section">
-              <h5 class="applicants-details-heading">Approval Status</h5>
-              <p class="approve-dissaprove-p">Do you approve this application?</p>
-              <a href="#" ><button class="btn approve-btn">Approve Application</button></a>
-              <a href="#" ><button class="btn disapprove-btn">Disapprove Application</button></a>
-          </div>
-
+    
           <div class="allocation-section">
             <h5 class="applicants-details-heading">Bursary Allocation</h5>
             <p>How much money do you wish to award this student?</p>
-            <form class="">
+            <form>
               <label>Allocate Amount:</label>
              
               <input type="number" placeholder="e.g 1000" class="allocate-amount"><br>
-              <button type="submit" class="allocate-btn">Allocate Money</button>
+              <button type="submit" class="btn btn-primary allocate-btn">Allocate</button>
             </form>
         </div>
 
           </div><!--end of main view-->
 
           <div class="move-btn">
-            <button type="button" class="previous-btn">Previous</button>
-            <button type="button" class="next-btn">Next Page</button>
+            <button type="button" class="btn previous-btn">Previous</button>
+            <button type="button" class="btn next-btn">Next Page</button>
         </div>
 
 
@@ -165,7 +164,7 @@
           
             <h4 class="footer-menu">MENU</h4>
             <a href="#top" class="footer-menu">Home</a>
-            <a href="#" class="footer-menu">Downloads</a>
+            <a href="" class="footer-menu">Downloads</a>
         </div>
         <div class="col-6">
           <h4 class="footer-heading">MASENO UNIVERSITY</h4>
@@ -183,6 +182,12 @@
       </div>
       
     </div>
-    <p class="copyright" style="text-align: center;padding-top:5%;">Maseno University &copy;<span id="currentYear">2021</span></p>
+    <p class="copyright" style="text-align: center;">Maseno University &copy;<span id="currentYear">2021</span></p>
   </footer>
   <!--end footer-->
+
+
+
+  
+  </body>
+  </html>

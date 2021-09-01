@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>ADMIN DASHBOARD</title>
+        <title>Upload Files</title>
         <link rel="stylesheet" href="static/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="static/bootstrap4/css/bootstrap.min.css">
@@ -26,48 +26,22 @@
           </div>
           </header>
 
+            <div class="download-content-form">
+                <div class="form-contents">
+                    <h3 style="color: #00a7d0;">Upload Information to The students</h3>
+                    <form>
+                        <label for="Subject" class="admin-download-heading">Attachment Heading</label><br>
+                        <textarea  class="form-control subject-input" cols="40" rows="4"></textarea><br>
+                        <label for="attachment" class="admin-download-heading">Upload File</label><br>
+                        <input type="file" class="form-control-file admin-attachment"><br><br>
+                        <a class="btn btn-primary download-upload-btn">Upload</a>
+                    </form>
 
-          <div class="applicants" id="applicants-info">
-              <div class="apllicants-table">
-                  <table class="table">
-                      <tr>
-                          <th>Registration Number</th>
-                          <th>Student's Name</th>
-                          <th>Programme</th>
-                          <th>Submission Date</th>
-                          <th>View Details</th>
-                      </tr>
-                      <tr>
-                          <td>CIT/00055/019</td>
-                          <td>FAITH RICHARD</td>
-                          <td>MEDICINE</td>
-                          <td>12/03/2022</td>
-                          <td><a href="applicantDetails.html"><button type="button" class="btn view-details-btn">View Details</button></a></td>
-                      </tr>
+                   
 
-                      <tr>
-                        <td>CIT/00055/019</td>
-                        <td>FAITH RICHARD</td>
-                        <td>MEDICINE</td>
-                        <td>12/03/2022</td>
-                        <td><a href="applicantDetails.html"><button type="button" class="btn view-details-btn">View Details</button></a></td>
-                    </tr>
-
-                    <tr>
-                        <td>CIT/00055/019</td>
-                        <td>FAITH RICHARD</td>
-                        <td>MEDICINE</td>
-                        <td>12/03/2022</td>
-                        <td><a href="applicantDetails.html"><button type="button" class="btn view-details-btn">View Details</button></a></td>
-                    </tr>
-                  </table>
-              </div>
-          </div>
-
-<div class="move-btn">
-    <button type="button" class=" btn previous-btn">Previous</button>
-    <button type="button" class="btn next-btn">Next Page</button>
-</div>
+                </div>
+            </div>
+          
 
           <!--Footer section-->
 <footer translate="no" class="footer-section">
@@ -78,7 +52,7 @@
             <h4 class="footer-menu">MENU</h4>
             <a href="#top" class="footer-menu">Home</a>
             <a class="footer-menu" href="disbursement.html">Disbursment</a>
-            <a href="downloads.html" class="footer-menu">Downloads</a>
+            <a href="adminDownloadPage.html" class="footer-menu">Downloads</a>
         </div>
         <div class="col-6">
           <h4 class="footer-heading">MASENO UNIVERSITY</h4>

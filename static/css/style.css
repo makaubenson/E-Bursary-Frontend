@@ -390,8 +390,6 @@ td{
   th{
     border: 1px solid white;  
   }
-
-
   .loanDetails-table{
       margin-top: 8%;
   }
@@ -401,11 +399,6 @@ border-radius: 10px;
 color: white;
 padding: 2%;
 }
-
-.print-btn{
-    margin-bottom: 5%;
-    display: inline-block;
-}
 .applicants{
     margin-top: 5%;
     margin-bottom: 10%;
@@ -413,73 +406,137 @@ padding: 2%;
 .move-btn{
     text-align: center;
 }
-
-
-
-
+.disbursement-form{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s;
+    background-color: #fff;
+}
+.disbursement-form:hover{
+    box-shadow: 10px 10px 10px rgb(114, 108, 108);
+}
+.disbursement-heading{
+    margin-top: 1%;
+    color:#00a7d0;
+    margin-bottom: 3%;
+}
+.cheque-section{
+    border: 8px solid white;
+    margin-bottom: 2%;
+}
+.cheque-number{
+    margin-bottom: 4%;
+}
+.label-heading{
+    font-weight: bold;
+}
+.disburse-btn{
+    margin-bottom: 5%;
+}
 /* apllicants details formarts */
 .main-view{
     margin-top: 5%;
 }
 
-.applicants-details-heading{
-    color: black;
-    text-decoration: underline;
-}
 .personal-details{
     margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.personal-details:hover{
+box-shadow: 10px 10px 10px rgb(126, 118, 118);
 }
 .family-status{
     margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.family-status:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118);
 }
 .loan-details{
     margin-bottom: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.loan-details:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118);
 }
 .bursary-details{
     margin-bottom: 2%;
+    margin-bottom: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.bursary-details:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118);
 }
 .academic-details{
     margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.academic-details:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118); 
+}
+.applicants-details-heading{
+    background-color: #00a7d0;
+    color: white;
+    padding: 1%;
 }
 .verify-section{
     margin-bottom: 2%;
-    border: 1px solid red;
+    border: 1px solid #00a7d0;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     padding: 2%;
+    transition: all .5s;
 }
-.approval-section{
-    margin-bottom: 2%;
-    border: 1px solid red;
-    padding: 2%;
+.verify-section:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118); 
+}
+.verify-btn{
+    margin-right: 5%;
 }
 .allocation-section{
-    border:1px solid blue;
-    padding: 2%;
     margin-bottom: 2%;
+    border: 1px solid #00a7d0;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2%;
+    transition: all .5s;
 }
-.approve-btn{
-    /* padding: 0.5%; */
-    background-color: #00a7d0;
-    color: white;
-    border-radius: 10px;
-    margin-right: 2%;
-    margin-left: 2%;
-    display: inline-block;
-}
-.disapprove-btn{
-    /* padding: 0.5%; */
-    background-color: #00a7d0;
-    color: white;
-    border-radius: 10px;
-    /* width: 5%; */
-    display: inline-block;
-}
-.approve-dissaprove-p{
-    color: black;
+.allocation-section:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118);  
 }
 .allocate-amount{
-    border-radius: 10px;
+    border-radius: 2px;
     margin-right: 2%;
     padding: 0.5%;
+    margin-left: 4%;
 }
 .allocate-btn{
     background-color: #00a7d0;
@@ -512,4 +569,28 @@ padding: 2%;
 }
 .next-btn:hover{
     background-color: green;
+}
+.download-content-form{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s;
+    background-color: white;
+}
+.download-content-form:hover{
+    box-shadow: 10px 10px 10px rgb(107, 99, 99);
+}
+.admin-download-heading{
+    font-weight: bold;
+}
+.form-contents{
+    border: 1px solid white;
+    padding: 2%;
+}
+.download-upload-btn{
+    color: white;
+    background-color: rgb(36, 36, 221);
 }
