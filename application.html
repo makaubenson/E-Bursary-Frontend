@@ -13,16 +13,16 @@
 
           <!--Navigation Bar section-->
         <nav class="navbar navbar-expand-lg fixed-top">
-            <a class="navbar-brand" href="#top">Maseno University <span class="navTitle">E</span>-Bursary System</a>
+            <a class="navbar-brand" href="#top"><span class="navTitle">E</span>-Bursary System</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="studentDashboard.html" >Home</a>
-                <a class="nav-item nav-link active" href="somubursary.html">Application</a>
+                <a class="nav-item nav-link active" href="studentDashboard.html">Home</a>
+                <a class="nav-item nav-link active" href="application.html">Application</a>
                 <a class="nav-item nav-link active" href="loanStatus.html">Loan Status</a>
-                <a class="nav-item nav-link active" href="#">Downloads</a>
+                <a class="nav-item nav-link active" href="">Downloads</a>
               </div>
             </div>
           </nav><!--end of Navigation Bar section-->
@@ -60,8 +60,7 @@
 
                     <label for="sponsor">Government sponsored?</label>
                     <input type="text" placeholder="yes or no" class="SOMU-sponsor" required><br>
-                  
-                    <button type="submit" class="save-Button">Save Personal Information</button>
+                    <a href="" class="btn btn-primary save-Button">Save Personal Information</a>
                 </form>
             </div>
         </div>
@@ -85,7 +84,7 @@
                 <label for="others">Others(specify)</label>
                 <textarea type="text" class="others"  rows="4" cols="40" style="margin-left: 6%;"></textarea><br>
 
-                <button type="submit" class="save-Button-family">Save Family Status</button>
+                <button type="submit" class="btn btn-primary save-Button-family">Save Family Status</button>
             </form>
         </div><!--end of family form contents-->
 
@@ -97,6 +96,7 @@
                 <p class="loan-disclaimer">Indicate clearly, organization and amount (e.g. HELB, 25000)</p>
                 <form>
                     <hr>
+                    <div class="loan-menu">
                     <h5 class="loan-details-heading">LOAN</h5>
                     <label for="loan_amount">Loan Amount</label>
                     <input type="number" class="loan-amount" placeholder="Loan Amount in Ksh: 10,000" value="0" required><br>
@@ -104,9 +104,9 @@
                     <input type="text" class="awarding-organization" placeholder=" e.g HELB or if no organization then type none" required><br>
                     <label for="attach-evidence">Attach Documents (pdf,jpg,jpeg or png files only)</label>
                     <input type="file" accept="application/pdf,image/jpeg,image/jpg,image/png" placeholder="Attach Document"><br>
+                  </div>
 
-                    <hr>
-
+                    <div class="bursary-menu">
                     <h5 class="loan-details-heading">BURSARY</h5>
                     <label for="bursary_amount">Bursary Amount</label>
                     <input type="number" class="bursary-amount" value="0" placeholder="Amount in Ksh:1000" required><br>
@@ -114,15 +114,17 @@
                     <input type="text" class="bursary-awarding-organization"  placeholder="e.g Mwala Constituency if no organization then type none" required><br>
                     <label for="attach-evidence">Attach Documents (pdf,jpg,jpeg or png files only)</label>
                     <input type="file" accept="application/pdf,image/jpeg,image/jpg,image/png" placeholder="Attach Document"><br><br>
+                  </div>
 
+                  <div class="academic-menu">
                     <h5 class="loan-details-heading">ACADEMIC PROGRESS</h5>
 
                     <label for="academic-grade">Previous Year academic grade</label>
                     <input type="text" class="academic-grade" placeholder="e.g B">
                     <label for="attach-evidence">Attach certified result slip by Dean of school(pdf only)</label>
-                    <input type="file" accept="application/pdf" placeholder="Attach Document"><br>
-
-                    <button class="loan-details-btn-save" type="submit">Save Loan Details</button>
+                    <input type="file" accept="application/pdf" placeholder="Attach Document"><br><br>
+                    <button class="btn btn-primary loan-details-btn-save" type="submit">Save Loan Details</button>
+                  </div>
                        </form>
             </div>
         </div>
@@ -134,10 +136,10 @@
       <div class="col">
         
           <h4 class="footer-menu">MENU</h4>
-          <a href="#top" class="footer-menu">Home</a><br>
-          <a href="somubursary.html" class="footer-menu">Application</a><br>
-          <a href="#loanStatus.html" class="footer-menu">Loan Status</a><br>
-          <a href="#" class="footer-menu">Downloads</a><br>
+          <a href="#top" class="footer-menu">Home</a>
+          <a href="somubursary.html" class="footer-menu">Application</a>
+          <a href="#loanStatus.html" class="footer-menu">Loan Status</a>
+          <a href="#" class="footer-menu">Downloads</a>
       </div>
       <div class="col-6">
         <h4 class="footer-heading">MASENO UNIVERSITY</h4>
@@ -155,7 +157,7 @@
     </div>
     
   </div>
-  <p class="copyright" style="text-align: center;padding-top:5%;">Maseno University &copy;<span id="currentYear">2021</span></p>
+  <p class="copyright" style="text-align: center;">Maseno University &copy;<span id="currentYear">2021</span></p>
 </footer>
 <!--end footer-->
     </body>

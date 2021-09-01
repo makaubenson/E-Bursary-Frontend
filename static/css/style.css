@@ -98,7 +98,6 @@
     margin-bottom: 0.5%;
 }
 /* end of login page formatting */
-
 /* register form formatting */
 .registerForm{
     margin-left: auto;
@@ -113,7 +112,6 @@
     width: 60%;
     background: #fff;
 }
-
 .registerFormContent{
     text-align: left;
     padding-left: 5%;
@@ -139,7 +137,6 @@
 .confirmPassword{
     padding: 0.5%;
 }
-
 .registerButton{
     background-color: rgb(2, 105, 2);
     color: #fff;
@@ -164,12 +161,10 @@ box-shadow: 10px 10px 10px rgb(85, 81, 81);
     padding-top: 1%;
 }
 /* end of register form formatting styles */
-
 /* student dashboard */
 .navbar{
     background-color: #1f2021;
 }
-/* <a class="nav-item nav-link active" href="studentDashboard.html" style="color: white;">Home</a> */
 .nav-item,.nav-link{
     color: white;
 }
@@ -183,20 +178,24 @@ box-shadow: 10px 10px 10px rgb(85, 81, 81);
 .navbar-brand:focus{
     color: white;
 }
-
-
 .jumbotron{
     background-color: #fff!important ;
     color: black;
+    margin-top: 4% !important;
+    margin-bottom: 1% !important;
 }
-
-
+.fa{
+    color: #00a7d0;
+    text-decoration: none;
+}
+.fa:hover{
+    text-decoration: none;
+    color:#00a7d0;
+}
 /* SOMU BURSARY SECTION */
 .somuLogo{
     padding: 2%;
 }
-
-
 .SOMU-Subtitle{
     text-align: center;
 }
@@ -205,10 +204,9 @@ box-shadow: 10px 10px 10px rgb(85, 81, 81);
 }
 .formContents{
     margin-top: 5%;
+    padding-left: 0;
 }
-
 .personalInformationForm{
-    position: relative;
    background: white;
     color: black;
     border: 1px solid #fff;
@@ -222,31 +220,17 @@ box-shadow: 10px 10px 10px rgb(85, 81, 81);
     min-width: 80%;
     width: 60%;
 }
-
-
 .personalInformationForm label{
-    width: 150px;
+    width: 200px;
     text-align: left;
     padding-left: 0;
     margin: 0;
 }
 .personalInformationForm  input{
     width: 50%;
-}
-.center{
-    text-align: end;
-}
-button.save-Button{
-    color: white;
-    background: #00a7d0;
-    padding: 1%;
-    border-radius: 10px;
-    margin-top: 2%;
     margin-bottom: 2%;
 }
-
 /* Family status form*/
-
 .family-status-form{
     background: white;
     color: black;
@@ -258,30 +242,25 @@ button.save-Button{
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 6%;
-    /* padding-right: 2%; */
     max-width: 100%;
     min-width: 80%;
     width: 60%;
     text-align: left;
 }
 .family-status-form label{
-    width: 250px;
+    width: 240px;
     margin: 0;
-    padding-left:10%; 
+    padding-left:8%; 
     padding-right: 0;
 }
-
 .family-status-form input{
     padding-right: 0;
     margin-right: 0;
     margin-left: 6%;
     padding-left: 0;
-
 }
-
 .save-Button-family{
-    color: white;
-    background: #00a7d0;
+    margin-top: 2%;
     padding: 1%;
     border-radius: 10px;
     margin-left: 40%;
@@ -307,6 +286,35 @@ button.save-Button{
     text-align: left;
     min-width: 80%;
     max-width: 100%;
+}
+.loan-menu{
+    border: 1px solid skyblue;
+    padding: 2%;
+    border-radius: 10px;
+    transition: all .5s;
+    margin-bottom: 2%;
+}
+.loan-menu:hover{
+box-shadow: 10px 10px 10px rgb(167, 159, 159);
+}
+.bursary-menu{
+    border: 1px solid skyblue;
+    padding: 2%;
+    border-radius: 10px;
+    transition: all .5s;
+    margin-bottom: 2%;
+}
+.bursary-menu:hover{
+    box-shadow: 10px 10px 10px rgb(167, 159, 159);
+}
+.academic-menu{
+    border: 1px solid skyblue;
+    padding: 2%;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.academic-menu:hover{
+    box-shadow: 10px 10px 10px rgb(167, 159, 159);
 }
 .loan-contents label{
     width:300px ;
@@ -337,12 +345,13 @@ button.save-Button{
     position: relative;
 }
 
+
 .footer-section{
     width: 100%;
     padding-top: 5%;
     padding-bottom: 2%;
     background-color: #fff;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .footer-menu{
     text-align: left;
